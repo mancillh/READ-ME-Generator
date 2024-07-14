@@ -1,43 +1,11 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require('fs');
+const badgeMaker = require("badge-maker");
+const generateMarkdown = require("./utils/generateMarkdown");
+utils = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
-// const questions = [];
-const generateREADME = ({ projectTitle, projectDescription, TOC, installation, usage, credits, license, badges, features, contribute, tests }) =>
-`# ${projectTitle}
-
-## Description
-${projectDescription}
-
-## Table of Contents (Optional)
-${TOC}
-
-## Installation
-${installation}
-
-## Usage
-${usage}
-
-## Credits
-${credits}
-
-## License
-${license}
-
-## Badges
-${badges}
-
-## Features
-${features}
-
-## How to Contribute
-${contribute}
-
-## Tests
-${tests}
-`;
-
   inquirer
     .prompt([
       {
@@ -70,10 +38,6 @@ ${tests}
         name: "license",
       }, {
         type: "input",
-        message: "List badges (optional)",
-        name: "badges",
-      }, {
-        type: "input",
         message: "List features (optional)",
         name: "features",
       }, {
@@ -89,9 +53,7 @@ ${tests}
 
     // TODO: Create a function to write README file
     .then((answers) => {
-      const READMEContent = generateREADME(answers);
-
-      fs.writeFile('README.md', READMEContent, (err) => {
+      fs.writeFile(`README.md`, generateMarkdown(answers), (err) => {
         err ? console.log(err) : console.log("Successfully created READ ME!");
       }
       );
