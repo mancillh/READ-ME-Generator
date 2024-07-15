@@ -24,6 +24,8 @@
 
   Walkthrough Video: https://drive.google.com/file/d/1uHhx7MkZAPJyOmIqJzbYBXZ0cR4z5DVg/view?usp=sharing
 
+  ![Screenshot of Terminal After Creating Sample README](<screenshot of terminal sample README.JPG>)
+
   ## Credits
   N/A
 
