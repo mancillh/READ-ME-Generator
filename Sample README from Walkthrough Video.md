@@ -22,8 +22,6 @@
   ## Usage
   Use this app to generate your READ MEs and get on to coding
 
-  Walkthrough Video: https://drive.google.com/file/d/1uHhx7MkZAPJyOmIqJzbYBXZ0cR4z5DVg/view?usp=sharing
-
   ## Credits
   N/A
 
