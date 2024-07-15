@@ -1,8 +1,8 @@
 # aweg
-  
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
-  aegw
+  awge
 
   ## Table of Contents (Optional)
   * [Description](#description)
@@ -16,28 +16,28 @@
   * [Questions](#questions)
   
   ## Installation
-  waeg
+  agew
 
   ## Usage
-  aewg
+  awge
 
   ## Credits
-  waeg
+  awge
 
   ## License
-  This application is covered under Apache License v2.0,GNU General Public License v3.0,MIT License
+  This application is covered under Apache License v2.0
   https://opensource.org/licenses
 
   ## Features
-  weg
+  weag
 
   ## How to Contribute
-  aegw
+  weag
 
   ## Tests
-  egw
+  agew
 
   ## Questions
-  My GitHub profile: https://github.com/gewa 
+  My GitHub profile: https://github.com/awge 
 
-  For additional questions, contact me at: egwa
+  For additional questions, contact me at: awge
