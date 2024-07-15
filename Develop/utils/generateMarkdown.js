@@ -39,7 +39,7 @@ function generateMarkdown(answers) {
   ${answers.projectDescription}
 
   ## Table of Contents (Optional)
-  ${answers.TOC}
+  * 
 
   ## Installation
   ${answers.installation}
@@ -60,9 +60,11 @@ function generateMarkdown(answers) {
   ${answers.contribute}
 
   ## Tests
-  ${answers.tests}`;
-}
+  ${answers.tests}
 
-renderLicenseSection();
+  ## Questions
+  My GitHub profile: https://github.com/${answers.username}
+  For additional questions, contact me at: ${answers.email}`;
+}
 
 module.exports = generateMarkdown;

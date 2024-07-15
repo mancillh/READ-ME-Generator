@@ -17,10 +17,6 @@ const path = require("path");
         name: "projectDescription",
       }, {
         type: "input",
-        message: "Enter Table of Contents. This section is optional.",
-        name: "TOC",
-      }, {
-        type: "input",
         message: "Enter steps for installation.",
         name: "installation",
       }, {
@@ -48,6 +44,14 @@ const path = require("path");
         type: "input",
         message: "Provide examples on how to run tests (optional)",
         name: "tests",
+      }, {
+        type: "input",
+        message: "Enter GitHub username.",
+        name: "username",
+      }, {
+        type: "input",
+        message: "Enter email address.",
+        name: "email",
       }
     ]
 
