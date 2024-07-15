@@ -55,7 +55,7 @@ const path = require("path");
     ]
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeFile(fileName, data) {
   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 };
 
@@ -63,7 +63,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((answers) => {
   console.log('Successfully created READ ME!');
-  writeToFile('README.md', generateMarkdown({...answers}));
+  writeFile('README.md', generateMarkdown(answers));
 });
 }
 init();
